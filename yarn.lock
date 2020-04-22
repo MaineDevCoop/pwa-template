@@ -2303,8 +2303,11 @@ lit-html@^1.1.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.2.1.tgz#1fb933dc1e2ddc095f60b8086277d4fcd9d62cc8"
 
-"lit-router@file:./lit-router":
-  version "0.0.0"
+"lit-router@git+https://git@github.com/MaineDevCoop/lit-router.git#1.0.0":
+  version "1.0.0"
+  resolved "git+https://git@github.com/MaineDevCoop/lit-router.git#076396ffc772defb537f908ca07446ee111c6750"
+  dependencies:
+    lit-element-router "^2.0.1"
 
 loader-runner@^2.4.0:
   version "2.4.0"
