@@ -1,0 +1,27 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "compile": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.2",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.0.4",
+    "jquery": "^3.4.1",
+    "lit-element": "^2.3.1",
+    "lit-element-router": "^2.0.1",
+    "lit-router": "file:./lit-router",
+    "mapbox-gl": "^1.9.1",
+    "serve": "^11.3.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

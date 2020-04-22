@@ -1,0 +1,8 @@
+/* This file should basically only be used to style html/body,
+as they arent reachable via any lit components without
+sketchy, unreliable workarounds. */
+
+html, body {
+	padding: 0px;
+	margin: 0px;
+}
